@@ -302,14 +302,14 @@
       }
     ],
     "theme": {
-      "primary_color": "0xFFf4847c",
-      "testnet_color": "0xFFf4847c",
+      "primary_color": "0x1F284F",
+      "testnet_color": "0x1F284F",
       "logo": {
-        "assets": "assets/images/juno/JUNO_Logo_Red.png",
+        "assets": "assets/images/cosmos/cosmos_logo.png",
         "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png"
       },
       "logo_named": {
-        "assets": "assets/images/juno/JUNO_Logo_Red.png",
+        "assets": "assets/images/cosmos/cosmos_logo.png",
         "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png"
       }
     },
