@@ -317,7 +317,7 @@
       "default_gas_limit": 350000,
       "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/theta-testnet.json",
       "gas_price_steps": {
-        "default": 0.075,
+        "default": 0.025,
         "low": 0.01,
         "average": 0.025,
         "high": 0.03
