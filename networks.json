@@ -306,7 +306,7 @@
       "testnet_color": "0xFF2E3148",
       "logo": {
         "assets": "assets/images/cosmos/cosmos_logo.png",
-        "url": "https://github.com/chainapsis/keplr-chain-registry/blob/main/images/cosmoshub/uatom.png"
+        "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
       },
       "logo_named": {
         "assets": "assets/images/cosmos/cosmos_logo.png",
