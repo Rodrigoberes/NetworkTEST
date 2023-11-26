@@ -302,8 +302,8 @@
       }
     ],
     "theme": {
-      "primary_color": "0x21263A",
-      "testnet_color": "0x21263A",
+      "primary_color": "0x2E3148",
+      "testnet_color": "0x2E3148",
       "logo": {
         "assets": "assets/images/cosmos/cosmos_logo.png",
         "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png"
