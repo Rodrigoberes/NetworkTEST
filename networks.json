@@ -336,7 +336,7 @@
       "uatom"
     ],
     "sponsor": "",
-    "mainnet": false,
+    "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
     "default_coins": [
