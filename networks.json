@@ -281,7 +281,7 @@
   },
   {
     "id": "theta-testnet-001",
-    "name": "Cosmos Testnet",
+    "name": "Cosmos",
     "http_url": "https://cosmos-testnet-api.polkachu.com",
     "grpc_url": "cosmos-testnet-grpc.polkachu.com:14990",
     "explorer_url": "https://testnet.mintscan.io/cosmoshub-testnet/txs/",
