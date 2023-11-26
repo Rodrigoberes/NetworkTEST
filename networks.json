@@ -283,7 +283,7 @@
     "id": "theta-testnet-001",
     "name": "Cosmos Hub Testnet",
     "http_url": "https://api-t.cosmos.nodestake.top",
-    "grpc_url": "http://grpc-t.cosmos.nodestake.top:443",
+    "grpc_url": "https://grpc-t.cosmos.nodestake.top:9090",
     "explorer_url": "https://testnet.mintscan.io/cosmoshub-testnet/txs/",
     "bech32_hrp": "cosmos",
     "tokens": [
