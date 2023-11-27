@@ -328,8 +328,8 @@
   {
     "id": "cosmoshub-4",
     "name": "Cosmos Hub",
-    "http_url": "https://api.cosmos.nodestake.top",
-    "grpc_url": "cosmos-grpc.polkachu.com:14990",
+    "http_url": "https://cosmoshub.api.kjnodes.com",
+    "grpc_url": "cosmoshub.grpc.kjnodes.com:11390",
     "explorer_url": "https://www.mintscan.io/cosmos/tx/",
     "bech32_hrp": "cosmos",
     "tokens": [
