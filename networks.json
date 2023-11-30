@@ -283,7 +283,7 @@
     "id": "cosmoshub-4",
     "name": "Cosmos Hub",
     "http_url": "https://cosmoshub.rest.stakin-nodes.com",
-    "grpc_url": "cosmoshub.grpc.stakin-nodes.com:443",
+    "grpc_url": "http://cosmoshub.grpc.stakin-nodes.com:9090",
     "explorer_url": "https://www.mintscan.io/cosmos/tx/",
     "bech32_hrp": "cosmos",
     "tokens": [
