@@ -282,8 +282,8 @@
   {
     "id": "cosmoshub-4",
     "name": "Cosmos Hub",
-    "http_url": "https://api-cosmoshub-ia.cosmosia.notional.ventures",
-    "grpc_url": "http://grpc-cosmoshub-ia.cosmosia.notional.ventures:443",
+    "http_url": "https://api-cosmoshub.cosmos-spaces.cloud",
+    "grpc_url": "grpc-cosmoshub.cosmos-spaces.cloud:3910",
     "explorer_url": "https://www.mintscan.io/cosmos/tx/",
     "bech32_hrp": "cosmos",
     "tokens": [
