@@ -283,7 +283,7 @@
     "id": "cosmoshub-4",
     "name": "Cosmos Hub",
     "http_url": "https://lcd-cosmoshub.keplr.app",
-    "grpc_url": "http://grpc-cosmoshub.keplr.app:9090",
+    "grpc_url": "cosmoshub.grpc.kjnodes.com:443",
     "explorer_url": "https://www.mintscan.io/cosmos/tx/",
     "bech32_hrp": "cosmos",
     "tokens": [
