@@ -282,8 +282,8 @@
   {
     "id": "cosmoshub-4",
     "name": "Cosmos Hub",
-    "http_url": "https://lcd-cosmoshub.keplr.app",
-    "grpc_url": "http://grpc-cosmos-hub-01.stakeflow.io:9090",
+    "http_url": "https://api.cosmos.nodestake.top",
+    "grpc_url": "http://grpc.cosmos.nodestake.top:9090",
     "explorer_url": "https://www.mintscan.io/cosmos/tx/",
     "bech32_hrp": "cosmos",
     "tokens": [
