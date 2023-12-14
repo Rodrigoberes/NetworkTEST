@@ -274,10 +274,10 @@
       "default_gas_limit": 350000,
       "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/juno.json",
       "gas_price_steps": {
-        "default": 0.003,
-        "low": 0.003,
-        "average": 0.003,
-        "high": 0.003
+        "default": 0.075,
+        "low": 0.075,
+        "average": 0.1,
+        "high": 0.125
       },
       "denom": "ujuno"
     }
