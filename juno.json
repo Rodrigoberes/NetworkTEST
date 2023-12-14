@@ -287,7 +287,7 @@
     "explorer_url": "https://www.mintscan.io/juno/txs/",
     "bech32_hrp": "juno",
     "tokens": [
-      "ujunox"
+      "ujuno"
     ],
     "sponsor": "",
     "mainnet": true,
@@ -295,10 +295,10 @@
     "can_change_enabled_status": true,
     "default_coins": [
       {
-        "name": "JUNOT",
-        "symbol": "JUNOT",
+        "name": "JUNO",
+        "symbol": "JUNO",
         "price": "-",
-        "denom": "ujunox"
+        "denom": "ujuno"
       }
     ],
     "theme": {
