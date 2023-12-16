@@ -420,7 +420,7 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus-rest.publicnode.com",
+    "http_url": "https://rebus-rpc.publicnode.com:443",
     "grpc_url": "http://rebus-grpc.publicnode.com:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
     "bech32_hrp": "rebus",
