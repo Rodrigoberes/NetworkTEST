@@ -421,7 +421,7 @@
     "id": "reb_1111-1",
     "name": "Rebus",
     "http_url": "https://rebus.api.liveraven.net",
-    "grpc_url": "https://rebus.grpc.liveraven.net",
+    "grpc_url": "http://rebus.grpc.liveraven.net",
     "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
