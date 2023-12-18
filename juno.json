@@ -421,13 +421,13 @@
     "id": "reb_1111-1",
     "name": "Rebus",
     "http_url": "https://api.rebus.nodestake.top",
-    "grpc_url": "http://grpc.rebus.nodestake.top:9090",
+    "grpc_url": "rebus-grpc.publicnode.com:443",
     "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
       "arebus"
     ],
-    "sponsor": "",
+    "sponsor": "rebusvaloper1ae6fc3rxq7fmtllm9nckn2qck6qdd33ap59p3u",
     "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
