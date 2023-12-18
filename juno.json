@@ -427,8 +427,8 @@
     "tokens": [
       "arebus"
     ],
-    "sponsor": "",
-    "mainnet": false,
+    "sponsor": "rebusvaloper1ae6fc3rxq7fmtllm9nckn2qck6qdd33ap59p3u",
+    "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
     "default_coins": [
