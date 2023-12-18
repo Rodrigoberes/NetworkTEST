@@ -421,7 +421,7 @@
     "id": "reb_1111-1",
     "name": "Rebus",
     "http_url": "https://api.mainnet.rebus.money:26657",
-    "grpc_url": "rebus.grpc.bccnodes.com:14090",
+    "grpc_url": "rebus.grpc.manticore.team:443",
     "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
