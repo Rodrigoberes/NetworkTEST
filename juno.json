@@ -421,7 +421,7 @@
     "id": "reb_1111-1",
     "name": "Rebus",
     "http_url": "https://rebus-rest.publicnode.com",
-    "grpc_url": "http://grpc.rebus.nodestake.top:9090",
+    "grpc_url": "http://rebus-grpc.publicnode.com:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
