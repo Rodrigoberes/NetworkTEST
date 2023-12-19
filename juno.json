@@ -420,8 +420,8 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus-rest.publicnode.com",
-    "grpc_url": "rebus.grpc.nodersteam.com:9181",
+    "http_url": "https://api.rebuschain.com:26657",
+    "grpc_url": "http://grpc.rebus.nodestake.top:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
