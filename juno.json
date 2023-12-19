@@ -420,9 +420,9 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus.api.manticore.team:443",
-    "grpc_url": "http://rebus.grpc.manticore.team:9090",
-    "explorer_url": "https://explorer.nodestake.top/rebus/tx/",
+    "http_url": "https://api-t.rebus.nodestake.top",
+    "grpc_url": "http://grpc-t.rebus.nodestake.top:9090",
+    "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
       "arebus"
