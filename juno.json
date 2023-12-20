@@ -453,7 +453,7 @@
     },
     "fees": {
       "default_gas_limit": 350000,
-      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/theta-testnet.json",
+      "url": "",
       "gas_price_steps": {
         "default": 0.025,
         "low": 0.01,
