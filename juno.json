@@ -421,7 +421,7 @@
     "id": "reb_1111-1",
     "name": "Rebus",
     "http_url": "https://rebus-mainnet-lcd.autostake.com:443",
-    "grpc_url": "rebus-mainnet-grpc.autostake.com:443",
+    "grpc_url": "http://rebus-mainnet-grpc.autostake.com:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
