@@ -440,8 +440,8 @@
       }
     ],
     "theme": {
-      "primary_color": "0xFFB26394",
-      "testnet_color": "0xFFB26394",
+      "primary_color": "0xFF8D71B5",
+      "testnet_color": "0xFF8D71B5",
       "logo": {
         "assets": "assets/images/rebus/rebus.png",
         "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
