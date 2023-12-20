@@ -420,8 +420,8 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus.api.m.stavr.tech",
-    "grpc_url": "http://rebus.grpc.m.stavr.tech:3211",
+    "http_url": "https://rebus-api.punq.info",
+    "grpc_url": "http://rebus-grpc.punq.info:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
