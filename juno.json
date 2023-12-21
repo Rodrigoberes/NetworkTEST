@@ -420,8 +420,8 @@
   {
     "id": "regen-1",
     "name": "Regen",
-    "http_url": "https://rebus-api.punq.info",
-    "grpc_url": "http://grpc-regen-ia.cosmosia.notional.ventures:9090",
+    "http_url": "https://regen-rest.publicnode.com",
+    "grpc_url": "http://regen-grpc.publicnode.com:9090",
     "explorer_url": "https://www.mintscan.io/regen/transactions/",
     "bech32_hrp": "regen",
     "tokens": [
