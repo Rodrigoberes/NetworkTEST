@@ -420,8 +420,8 @@
   {
     "id": "regen-1",
     "name": "Regen",
-    "http_url": "https://regen.stakesystems.io",
-    "grpc_url": "http://regen.stakesystems.io:9090",
+    "http_url": "https://regen.stakesystems.io:2083",
+    "grpc_url": "http://regen.stakesystems.io:2083",
     "explorer_url": "https://www.mintscan.io/regen/transactions/",
     "bech32_hrp": "regen",
     "tokens": [
