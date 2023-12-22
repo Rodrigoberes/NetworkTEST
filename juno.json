@@ -420,8 +420,8 @@
   {
     "id": "regen-1",
     "name": "Regen",
-    "http_url": "https://lcd-regen.keplr.app",
-    "grpc_url": "http://grpc-regen.keplr.app:9090",
+    "http_url": "https://regen.stakesystems.io",
+    "grpc_url": "regen-grpc.publicnode.com:443",
     "explorer_url": "https://www.mintscan.io/regen/transactions/",
     "bech32_hrp": "regen",
     "tokens": [
