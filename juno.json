@@ -421,7 +421,7 @@
     "id": "regen-1",
     "name": "Regen",
     "http_url": "https://regen.stakesystems.io",
-    "grpc_url": "regen-grpc.publicnode.com:443",
+    "grpc_url": "http://regen.stakesystems.io:9090",
     "explorer_url": "https://www.mintscan.io/regen/transactions/",
     "bech32_hrp": "regen",
     "tokens": [
