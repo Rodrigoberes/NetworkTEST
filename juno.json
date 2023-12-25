@@ -420,7 +420,7 @@
   {
     "id": "regen-1",
     "name": "Regen",
-    "http_url": "https://regen-rest.publicnode.com",
+    "http_url": "https://regen-api.w3coins.io",
     "grpc_url": "regen-grpc.w3coins.io:22790",
     "explorer_url": "https://www.mintscan.io/regen/transactions/",
     "bech32_hrp": "regen",
