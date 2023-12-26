@@ -422,7 +422,7 @@
     "name": "Regen",
     "http_url": "https://regen-api.w3coins.io",
     "grpc_url": "regen-grpc.w3coins.io:22790",
-    "explorer_url": "https://www.mintscan.io/regen/transactions/",
+    "explorer_url": "https://www.mintscan.io/regen/tx/",
     "bech32_hrp": "regen",
     "tokens": [
       "uregen"
@@ -440,8 +440,8 @@
       }
     ],
     "theme": {
-      "primary_color": "0xFF2E3148",
-      "testnet_color": "0xFF2E3148",
+      "primary_color": "0xFF65BEA9",
+      "testnet_color": "0xFF65BEA9",
       "logo": {
         "assets": "assets/images/regen/regen.png",
         "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
