@@ -463,11 +463,11 @@
       "denom": "uregen"
     }
   },
-   {
+ {
     "id": "perun-1",
     "name": "chain4energy",
     "http_url": "https://api.c4e.nodestake.top",
-    "grpc_url": "grpc.c4e.nodestake.top:443",
+    "grpc_url": "http://grpc.c4e.nodestake.top:9090",
     "explorer_url": "https://www.mintscan.io/regen/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
@@ -489,11 +489,11 @@
       "primary_color": "0xFF65BEA9",
       "testnet_color": "0xFF65BEA9",
       "logo": {
-        "assets": "assets/images/regen/regen.png",
+        "assets": "assets/images/chain4energy/c4e_logo.png",
         "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
       },
       "logo_named": {
-        "assets": "assets/images/regen/regen.png",
+        "assets": "assets/images/chain4energy/c4e_logo.png",
         "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
       }
     },
