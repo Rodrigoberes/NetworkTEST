@@ -466,14 +466,14 @@
  {
     "id": "perun-1",
     "name": "chain4energy",
-    "http_url": "https://lcd-c4e.stakerun.com:443",
-    "grpc_url": "grpc-c4e.stakerun.com:1190",
+    "http_url": "https://api.c4e.nodestake.top",
+    "grpc_url": "https://grpc.c4e.nodestake.top",
     "explorer_url": "https://www.mintscan.io/regen/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
       "uc4e"
     ],
-    "sponsor": "",
+    "sponsor": "c4evaloper1rj495hkeh30kmq7yfkpps0ls5krstpzdryvuyq",
     "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
