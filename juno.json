@@ -463,18 +463,18 @@
       "denom": "uregen"
     }
   },
- {
-    "id": "perun-1",
-    "name": "chain4energy",
-    "http_url": "https://api.c4e.nodestake.top",
-    "grpc_url": "http://grpc.c4e.nodestake.top:9090",
+{
+    "id": "babajaga-1",
+    "name": "chain4energy testnet",
+    "http_url": "https://api-t.c4e.nodestake.top",
+    "grpc_url": "https://grpc-t.c4e.nodestake.top:443",
     "explorer_url": "https://www.mintscan.io/regen/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
       "uc4e"
     ],
-    "sponsor": "c4evaloper1rj495hkeh30kmq7yfkpps0ls5krstpzdryvuyq",
-    "mainnet": true,
+    "sponsor": "",
+    "mainnet": false,
     "enabled": true,
     "can_change_enabled_status": true,
     "default_coins": [
