@@ -467,7 +467,7 @@
     "id": "perun-1",
     "name": "Chain4energy",
     "http_url": "https://api.c4e.validatus.com:443",
-    "grpc_url": "https://grpc.c4e.validatus.com:443",
+    "grpc_url": "http://grpc.c4e.validatus.com:9090",
     "explorer_url": "https://explorer.nodestake.top/chain4energy/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
