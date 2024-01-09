@@ -473,7 +473,7 @@
     "tokens": [
       "uc4e"
     ],
-    "sponsor": "",
+    "sponsor": "c4evaloper1rj495hkeh30kmq7yfkpps0ls5krstpzdryvuyq",
     "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
@@ -499,7 +499,53 @@
     },
     "fees": {
       "default_gas_limit": 350000,
-      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/regen.json",
+      "url": "",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "uc4e"
+    }
+  },
+  {
+    "id": "babajaga-1",
+    "name": "Chain4energy testnet",
+    "http_url": "https://api-t.c4e.nodestake.top",
+    "grpc_url": "http://grpc-t.c4e.nodestake.top",
+    "explorer_url": "https://explorer.nodestake.top/chain4energy-testnet/tx/",
+    "bech32_hrp": "c4e",
+    "tokens": [
+      "uc4e"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "Chain4Energy",
+        "symbol": "Chain4Energy",
+        "price": "-",
+        "denom": "uc4e"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF65BEA9",
+      "testnet_color": "0xFF65BEA9",
+      "logo": {
+        "assets": "assets/images/chain4energy/c4e_logo.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/chain4energy/c4e_logo.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "",
       "gas_price_steps": {
         "default": 0.025,
         "low": 0.015,
