@@ -416,5 +416,51 @@
       },
       "denom": "uatom"
     }
+  },
+  {
+    "id": "regen-1",
+    "name": "Regen",
+    "http_url": "https://regen-api.w3coins.io",
+    "grpc_url": "regen-grpc.w3coins.io:22790",
+    "explorer_url": "https://www.mintscan.io/regen/tx/",
+    "bech32_hrp": "regen",
+    "tokens": [
+      "uregen"
+    ],
+    "sponsor": "",
+    "mainnet": true,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "REGEN",
+        "symbol": "REGEN",
+        "price": "-",
+        "denom": "uregen"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF65BEA9",
+      "testnet_color": "0xFF65BEA9",
+      "logo": {
+        "assets": "assets/images/regen/regen.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/regen/regen.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/regen.json",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "uregen"
+    }
   }
 ]
