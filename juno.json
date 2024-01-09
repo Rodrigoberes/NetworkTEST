@@ -466,8 +466,8 @@
    {
     "id": "perun-1",
     "name": "Chain4energy",
-    "http_url": "https://api.c4e.nodestake.top",
-    "grpc_url": "http://grpc.c4e.nodestake.top:9090",
+    "http_url": "https://c4e.api.m.anode.team",
+    "grpc_url": "http://c4e.grpc.m.anode.team:9090",
     "explorer_url": "https://explorer.nodestake.top/chain4energy/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
