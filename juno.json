@@ -151,7 +151,7 @@
     "id": "babajaga-1",
     "name": "Chain4Energy Testnet",
     "http_url": "https://lcd-testnet.c4e.io",
-    "grpc_url": "https://rpc-testnet.c4e.io",
+    "grpc_url": "http://grpc-testnet.c4e.io:443",
     "explorer_url": "https://explorer.nodestake.top/chain4energy/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
