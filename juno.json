@@ -113,7 +113,7 @@
     "can_change_enabled_status": true,
     "default_coins": [
       {
-        "name": "Chain4Energy",
+        "name": "C4E",
         "symbol": "C4E",
         "price": "-",
         "denom": "uc4e"
