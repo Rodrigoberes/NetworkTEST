@@ -102,13 +102,13 @@
     "name": "Chain4Energy",
     "http_url": "http://chain4energy-rpc.stakeangle.com:1317",
     "grpc_url": "http://chain4energy-rpc.stakeangle.com:9090",
-    "explorer_url": "https://explorer.nodestake.top/chain4energy/tx/",
+    "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
       "uc4e"
     ],
     "sponsor": "c4evaloper1rj495hkeh30kmq7yfkpps0ls5krstpzdryvuyq",
-    "mainnet": false,
+    "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
     "default_coins": [
