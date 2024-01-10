@@ -486,8 +486,8 @@
       }
     ],
     "theme": {
-      "primary_color": "0xFF65BEA9",
-      "testnet_color": "0xFF65BEA9",
+      "primary_color": "0xFF00883A",
+      "testnet_color": "0xFF00883A",
       "logo": {
         "assets": "assets/images/chain4energy/c4e_logo.png",
         "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
