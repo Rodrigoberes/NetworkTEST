@@ -148,7 +148,7 @@
     "name": "Chain4Energy Testnet",
     "http_url": "https://c4e-testnet-api.stake-town.com:443",
     "grpc_url": "http://c4e-testnet-grpc.stake-town.com:9990",
-    "explorer_url": "https://explorer.c4e.io/transactions/",
+    "explorer_url": "https://explorer.nodestake.top/chain4energy-testnet/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
       "uc4e"
