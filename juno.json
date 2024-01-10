@@ -100,8 +100,8 @@
   {
     "id": "babajaga-1",
     "name": "Chain4Energy Testnet",
-    "http_url": "https://api-t.c4e.nodestake.top",
-    "grpc_url": "https://grpc-t.c4e.nodestake.top:443",
+    "http_url": "https://c4e-api.stake-town.com:443",
+    "grpc_url": "c4e-grpc.stake-town.com:443",
     "explorer_url": "https://explorer.nodestake.top/chain4energy/tx/",
     "bech32_hrp": "c4e",
     "tokens": [
