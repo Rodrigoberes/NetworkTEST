@@ -98,8 +98,8 @@
     }
   },
   {
-    "id": "babajaga-1",
-    "name": "Chain4Energy Testnet",
+    "id": "perun-1",
+    "name": "Chain4Energy",
     "http_url": "https://c4e-api.stake-town.com",
     "grpc_url": "http://c4e-grpc.stake-town.com:9090",
     "explorer_url": "https://explorer.nodestake.top/chain4energy/tx/",
