@@ -193,7 +193,7 @@
     "id": "regen-redwood-1",
     "name": "Regen testnet",
     "http_url": "https://207.148.64.246:1317",
-    "grpc_url": "http://207.148.64.246:26657",
+    "grpc_url": "http://207.148.64.246:9090",
     "explorer_url": "https://redwood.regen.aneka.io/txs/",
     "bech32_hrp": "regen",
     "tokens": [
