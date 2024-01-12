@@ -486,7 +486,7 @@
       }
     ],
     "theme": {
-      "primary_color": "0xFF65BEA9",
+      "primary_color": "0xFF0A8B3A",
       "testnet_color": "0xFFFF4D4D",
       "logo": {
         "assets": "assets/images/chain4energy/c4e_logo.png",
