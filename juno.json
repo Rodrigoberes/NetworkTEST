@@ -97,61 +97,200 @@
       "denom": "ucommercio"
     }
   },
-   {
-    "id": "perun-1",
-    "name": "Chain4Energy",
-    "http_url": "http://chain4energy-rpc.stakeangle.com:1317",
-    "grpc_url": "http://chain4energy-rpc.stakeangle.com:9090",
-    "explorer_url": "https://explorer.c4e.io/transactions/",
-    "bech32_hrp": "c4e",
+  {
+    "id": "commercio-devnet",
+    "name": "Commercio",
+    "http_url": "https://lcd-demo.commercio.network",
+    "grpc_url": "http://grpc-demo.commercio.network:9090",
+    "explorer_url": "https://devnet.commercio.network/transactions/detail/",
+    "bech32_hrp": "did:com:",
     "tokens": [
-      "uc4e"
+      "ucommercio",
+      "uccc"
     ],
-    "sponsor": "c4evaloper1rj495hkeh30kmq7yfkpps0ls5krstpzdryvuyq",
+    "sponsor": "did:com:valoper1mfddzjvr8vpeqdtm6fuay2nvnecuk9qaylfxd8",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "cw20_base_id": 11,
+    "cw_atomic_swap_id": 12,
+    "default_coins": [
+      {
+        "name": "COM",
+        "symbol": "COM",
+        "price": "-",
+        "denom": "ucommercio"
+      },
+      {
+        "name": "CCC",
+        "symbol": "CCC",
+        "price": "1.0",
+        "denom": "uccc"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFFFF0000",
+      "testnet_color": "0xFFFF4D4D",
+      "logo": {
+        "assets": "assets/images/commercio_logo.png",
+        "url": "https://avatars.githubusercontent.com/u/45789950?s=200&v=4"
+      },
+      "logo_named": {
+        "assets": "assets/images/commercio_named_only_logo.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 1000000,
+      "gas_price_steps": {
+        "default": 0.01
+      },
+      "denom": "ucommercio"
+    }
+  },
+  {
+    "id": "osmosis-mainnet",
+    "name": "Osmosis",
+    "http_url": "https://lcd.osmosis.zone",
+    "grpc_url": "http://grpc.osmosis.zone:9090",
+    "explorer_url": "https://www.mintscan.io/osmosis/txs/",
+    "bech32_hrp": "osmo",
+    "tokens": [
+      "uosmo"
+    ],
+    "sponsor": "osmovaloper103s29j7dyc3utljce802m38p2kk89taj0r2hxa",
+    "mainnet": true,
+    "enabled": false,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "OSMO",
+        "symbol": "OSMO",
+        "price": "-",
+        "denom": "uosmo"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF5C03AF",
+      "testnet_color": "0xFFFF4D4D",
+      "logo": {
+        "assets": "assets/images/osmosis/osmosis_logo.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/osmosis/osmosis_logo.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/osmosis.json",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "uosmo"
+    }
+  },
+  {
+    "id": "osmo-test-5",
+    "name": "Osmosis",
+    "http_url": "https://lcd.testnet.osmosis.zone",
+    "grpc_url": "http://grpc.testnet.osmosis.zone:9090",
+    "explorer_url": "https://testnet.mintscan.io/osmosis-testnet/txs/",
+    "bech32_hrp": "osmo",
+    "tokens": [
+      "uosmo"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "logo_assets": "assets/images/osmosis/osmosis_logo.png",
+    "default_coins": [
+      {
+        "name": "OSMO",
+        "symbol": "OSMO",
+        "price": "-",
+        "denom": "uosmo"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF5C03AF",
+      "testnet_color": "0xFFFF4D4D",
+      "logo": {
+        "assets": "assets/images/osmosis/osmosis_logo.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/osmosis/osmosis_logo.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/osmosis.json",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.0025,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "uosmo"
+    }
+  },
+  {
+    "id": "juno-1",
+    "name": "Juno",
+    "http_url": "https://juno-api.polkachu.com",
+    "grpc_url": "juno-grpc.polkachu.com:12690",
+    "explorer_url": "https://www.mintscan.io/juno/txs/",
+    "bech32_hrp": "juno",
+    "tokens": [
+      "ujuno"
+    ],
+    "sponsor": "",
     "mainnet": true,
     "enabled": true,
     "can_change_enabled_status": true,
     "default_coins": [
       {
-        "name": "C4E",
-        "symbol": "C4E",
+        "name": "JUNO",
+        "symbol": "JUNO",
         "price": "-",
-        "denom": "uc4e"
+        "denom": "ujuno"
       }
     ],
     "theme": {
-      "primary_color": "0xFF65BEA9",
-      "testnet_color": "0xFF65BEA9",
+      "primary_color": "0xFFf4847c",
+      "testnet_color": "0xFFf4847c",
       "logo": {
-        "assets": "assets/images/chain4energy/c4e_logo.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+        "assets": "assets/images/juno/juno.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png"
       },
       "logo_named": {
-        "assets": "assets/images/chain4energy/c4e_logo.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+        "assets": "assets/images/juno/juno.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png"
       }
     },
     "fees": {
       "default_gas_limit": 350000,
-      "url": "",
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/juno.json",
       "gas_price_steps": {
-        "default": 0.025,
-        "low": 0,
-        "average":0.025,
-        "high": 0.03
+        "default": 0.075,
+        "low": 0.075,
+        "average": 0.1,
+        "high": 0.125
       },
-      "denom": "uc4e"
+      "denom": "ujuno"
     }
   },
   {
-    "id": "babajaga-1",
-    "name": "Chain4Energy Testnet",
-    "http_url": "https://c4e-testnet-api.stake-town.com:443",
-    "grpc_url": "http://c4e-testnet-grpc.stake-town.com:9990",
-    "explorer_url": "https://explorer.nodestake.top/chain4energy-testnet/tx/",
-    "bech32_hrp": "c4e",
+    "id": "juno-uni-6",
+    "name": "Juno Testnet",
+    "http_url": "https://api.uni.junonetwork.io",
+    "grpc_url": "juno-testnet-grpc.polkachu.com:12690",
+    "explorer_url": "https://testnet.mintscan.io/juno-testnet/txs/",
+    "bech32_hrp": "juno",
     "tokens": [
-      "uc4e"
+      "ujunox"
     ],
     "sponsor": "",
     "mainnet": false,
@@ -159,22 +298,157 @@
     "can_change_enabled_status": true,
     "default_coins": [
       {
-        "name": "C4E",
-        "symbol": "C4E",
+        "name": "JUNOT",
+        "symbol": "JUNOT",
         "price": "-",
-        "denom": "uc4e"
+        "denom": "ujunox"
       }
     ],
     "theme": {
-      "primary_color": "0xFF65BEA9",
-      "testnet_color": "0xFFFF4D4D",
+      "primary_color": "0xFFf4847c",
+      "testnet_color": "0xFFf4847c",
       "logo": {
-        "assets": "assets/images/chain4energy/c4e_logo.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+        "assets": "assets/images/juno/JUNO_Logo_Red.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png"
       },
       "logo_named": {
-        "assets": "assets/images/chain4energy/c4e_logo.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+        "assets": "assets/images/juno/JUNO_Logo_Red.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/juno.json",
+      "gas_price_steps": {
+        "default": 0.075
+      },
+      "denom": "ujunox"
+    }
+  },
+  {
+    "id": "cosmoshub-4",
+    "name": "Cosmos Hub",
+    "http_url": "https://api.cosmos.nodestake.top",
+    "grpc_url": "http://grpc.cosmos.nodestake.top:9090",
+    "explorer_url": "https://www.mintscan.io/cosmos/tx/",
+    "bech32_hrp": "cosmos",
+    "tokens": [
+      "uatom"
+    ],
+    "sponsor": "cosmosvaloper1fqzqejwkk898fcslw4z4eeqjzesynvrdfr5hte",
+    "mainnet": true,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "ATOM",
+        "symbol": "ATOM",
+        "price": "-",
+        "denom": "uatom"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF2E3148",
+      "testnet_color": "0xFF2E3148",
+      "logo": {
+        "assets": "assets/images/cosmos/cosmos_logo.png",
+        "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/cosmos/cosmos_logo.png",
+        "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/cosmoshub.json",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.005,
+        "average": 0.025,
+        "high": 0.03
+      },
+      "denom": "uatom"
+    }
+  },
+  {
+    "id": "theta-testnet-001",
+    "name": "Cosmos Testnet",
+    "http_url": "https://api-t.cosmos.nodestake.top",
+    "grpc_url": "http://grpc-t.cosmos.nodestake.top:9090",
+    "explorer_url": "https://explorer.theta-testnet.polypore.xyz/transactions/",
+    "bech32_hrp": "cosmos",
+    "tokens": [
+      "uatom"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "ATOM",
+        "symbol": "ATOM",
+        "price": "-",
+        "denom": "uatom"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF2E3148",
+      "testnet_color": "0xFF2E3148",
+      "logo": {
+        "assets": "assets/images/cosmos/cosmos_logo.png",
+        "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/uatom.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/cosmos/cosmos_logo.png",
+        "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/cosmoshub/chain.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/theta-testnet.json",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      },
+      "denom": "uatom"
+    }
+  },
+   {
+    "id": "reb_1111-1",
+    "name": "Rebus",
+    "http_url": "https://api.rebuschain.com",
+    "grpc_url": "http://api.rebuschain.com:9090",
+    "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
+    "bech32_hrp": "rebus",
+    "tokens": [
+      "arebus"
+    ],
+    "sponsor": "rebusvaloper1ae6fc3rxq7fmtllm9nckn2qck6qdd33ap59p3u",
+    "mainnet": true,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "REBUS",
+        "symbol": "REBUS",
+        "price": "-",
+        "denom": "arebus"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF40385E",
+      "testnet_color": "0xFF40385E",
+      "logo": {
+        "assets": "assets/images/rebus/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/cosmos/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
       }
     },
     "fees": {
@@ -182,19 +456,19 @@
       "url": "",
       "gas_price_steps": {
         "default": 0.025,
-        "low": 0,
-        "average":0.025,
-        "high": 0.03
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
       },
-      "denom": "uc4e"
+      "denom": "arebus"
     }
   },
   {
-    "id": "regen-redwood-1",
-    "name": "Regen testnet",
-    "http_url": "https://207.148.64.246:1317",
-    "grpc_url": "http://207.148.64.246:9090",
-    "explorer_url": "https://redwood.regen.aneka.io/txs/",
+    "id": "regen-1",
+    "name": "Regen",
+    "http_url": "https://regen-api.w3coins.io",
+    "grpc_url": "regen-grpc.w3coins.io:22790",
+    "explorer_url": "https://www.mintscan.io/regen/tx/",
     "bech32_hrp": "regen",
     "tokens": [
       "uregen"
@@ -234,5 +508,52 @@
       },
       "denom": "uregen"
     }
-  }
+  },
+    {
+    "id": "babajaga-1",
+    "name": "Chain4Energy Testnet",
+    "http_url": "https://c4e-testnet-api.stake-town.com:443",
+    "grpc_url": "http://c4e-testnet-grpc.stake-town.com:9990",
+    "explorer_url": "https://explorer.nodestake.top/chain4energy-testnet/tx/",
+    "bech32_hrp": "c4e",
+    "tokens": [
+      "uc4e"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "C4E",
+        "symbol": "C4E",
+        "price": "-",
+        "denom": "uc4e"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF0A8B3A",
+      "testnet_color": "0xFFFF4D4D",
+      "logo": {
+        "assets": "assets/images/chain4energy/c4e_logo.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/chain4energy/c4e_logo.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0,
+        "average":0.025,
+        "high": 0.03
+      },
+      "denom": "uc4e"
+    }
+  },
+  
 ]
