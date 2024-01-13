@@ -420,7 +420,7 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://api.rebuschain.com",
+    "http_url": "https://api.rebuschain.com:1317",
     "grpc_url": "http://grpc.rebuschain.com:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
