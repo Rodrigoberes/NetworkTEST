@@ -417,52 +417,6 @@
       "denom": "uatom"
     }
   },
-   {
-    "id": "reb_1111-1",
-    "name": "Rebus",
-    "http_url": "https://api.rebuschain.com:1317",
-    "grpc_url": "http://grpc.rebuschain.com:9090",
-    "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
-    "bech32_hrp": "rebus",
-    "tokens": [
-      "arebus"
-    ],
-    "sponsor": "rebusvaloper1ae6fc3rxq7fmtllm9nckn2qck6qdd33ap59p3u",
-    "mainnet": true,
-    "enabled": true,
-    "can_change_enabled_status": true,
-    "default_coins": [
-      {
-        "name": "REBUS",
-        "symbol": "REBUS",
-        "price": "-",
-        "denom": "arebus"
-      }
-    ],
-    "theme": {
-      "primary_color": "0xFF40385E",
-      "testnet_color": "0xFF40385E",
-      "logo": {
-        "assets": "assets/images/rebus/rebus.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
-      },
-      "logo_named": {
-        "assets": "assets/images/cosmos/rebus.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
-      }
-    },
-    "fees": {
-      "default_gas_limit": 350000,
-      "url": "",
-      "gas_price_steps": {
-        "default": 0.025,
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.04
-      },
-      "denom": "arebus"
-    }
-  },
   {
     "id": "regen-1",
     "name": "Regen",
@@ -507,6 +461,52 @@
         "high": 0.04
       },
       "denom": "uregen"
+    }
+  },
+     {
+    "id": "perun-1",
+    "name": "Chain4Energy",
+    "http_url": "http://chain4energy-rpc.stakeangle.com:1317",
+    "grpc_url": "http://chain4energy-rpc.stakeangle.com:9090",
+    "explorer_url": "https://explorer.c4e.io/transactions/",
+    "bech32_hrp": "c4e",
+    "tokens": [
+      "uc4e"
+    ],
+    "sponsor": "c4evaloper1rj495hkeh30kmq7yfkpps0ls5krstpzdryvuyq",
+    "mainnet": true,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "C4E",
+        "symbol": "C4E",
+        "price": "-",
+        "denom": "uc4e"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF65BEA9",
+      "testnet_color": "0xFF65BEA9",
+      "logo": {
+        "assets": "assets/images/chain4energy/c4e_logo.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/chain4energy/c4e_logo.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0,
+        "average":0.025,
+        "high": 0.03
+      },
+      "denom": "uc4e"
     }
   },
     {
