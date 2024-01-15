@@ -467,7 +467,7 @@
     "id": "perun-1",
     "name": "Chain4Energy",
     "http_url": "https://api-c4e.takeshi.team",
-    "grpc_url": "http://grpc-c4e.takeshi.team:9090",
+    "grpc_url": "grpc-c4e.takeshi.team",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
