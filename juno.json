@@ -467,7 +467,7 @@
     "id": "perun-1",
     "name": "Chain4Energy",
     "http_url": "https://c4e.api.bccnodes.com",
-    "grpc_url": "http://c4e.grpc.bccnodes.com:20090",
+    "grpc_url": "http://c4e.grpc.bccnodes.com:9090",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
