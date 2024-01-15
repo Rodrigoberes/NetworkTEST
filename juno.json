@@ -466,8 +466,8 @@
      {
     "id": "perun-1",
     "name": "Chain4Energy",
-    "http_url": "https://lcd.c4e.io",
-    "grpc_url": "http://grpc.c4e.io:9090",
+    "http_url": "http://chain4energy-rpc.stakeangle.com:1317",
+    "grpc_url": "http://chain4energy-rpc.stakeangle.com:9090",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
