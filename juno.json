@@ -467,7 +467,7 @@
     "id": "perun-1",
     "name": "Chain4Energy",
     "http_url": "https://chain4energy-mainnet-lcd.autostake.com",
-    "grpc_url": "http://chain4energy-mainnet-grpc.autostake.com",
+    "grpc_url": "https://chain4energy-mainnet-grpc.autostake.com",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
