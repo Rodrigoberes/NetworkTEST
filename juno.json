@@ -466,8 +466,8 @@
      {
     "id": "perun-1",
     "name": "Chain4Energy",
-    "http_url": "https://api.c4e.nodestake.top",
-    "grpc_url": "https://grpc.c4e.nodestake.top:443",
+    "http_url": "https://c4e-api.kalia.network",
+    "grpc_url": "http://c4e-grpc.kalia.network:9090",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
