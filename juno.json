@@ -512,8 +512,8 @@
   {
     "id": "c4e_9001-2",
     "name": "Chain4Energy",
-    "http_url": "https://lcd.c4e.io",
-    "grpc_url": "http://grpc.c4e.io",
+    "http_url": "https://c4e-api.genznodes.dev",
+    "grpc_url": "c4e-grpc.genznodes.dev:52090",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
