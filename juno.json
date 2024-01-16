@@ -510,7 +510,7 @@
     }
   },
   {
-    "id": "c4e_9001-2",
+    "id": "perun-1",
     "name": "Chain4Energy",
     "http_url": "https://c4e-api.genznodes.dev",
     "grpc_url": "c4e-grpc.genznodes.dev:52090",
