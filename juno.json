@@ -512,8 +512,8 @@
   {
     "id": "perun-1",
     "name": "Chain4Energy",
-    "http_url": "https://api-c4e.cryptech.com.ua",
-    "grpc_url": "https://grpc-c4e.cryptech.com.ua",
+    "http_url": "https://api-c4e.theamsolutions.info",
+    "grpc_url": "grpc-c4e.theamsolutions.info:9391",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
