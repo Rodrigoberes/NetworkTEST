@@ -513,7 +513,7 @@
     "id": "c4e_9001-2",
     "name": "Chain4Energy",
     "http_url": "https://lcd.c4e.io",
-    "grpc_url": "http://grpc.c4e.io:9090",
+    "grpc_url": "http://grpc.c4e.io",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
