@@ -464,6 +464,52 @@
     }
   },
     {
+    "id": "regen-redwood-1",
+    "name": "Regen Testnet",
+    "http_url": "https://lcd.regen-redwood-1.test.quicksilver.zone",
+    "grpc_url": "http://grpc.regen-redwood-1.test.quicksilver.zone:9090",
+    "explorer_url": "https://redwood.regen.aneka.io/tx/",
+    "bech32_hrp": "regen",
+    "tokens": [
+      "uregen"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "REGEN",
+        "symbol": "REGEN",
+        "price": "-",
+        "denom": "uregen"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF65BEA9",
+      "testnet_color": "0xFF65BEA9",
+      "logo": {
+        "assets": "assets/images/regen/regen.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/regen/regen.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/regen.json",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.015,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "uregen"
+    }
+  },
+    {
     "id": "babajaga-1",
     "name": "Chain4Energy Testnet",
     "http_url": "https://c4e-testnet-api.stake-town.com:443",
