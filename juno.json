@@ -513,7 +513,7 @@
     "id": "perun-1",
     "name": "Chain4Energy",
     "http_url": "https://rest.cosmos.directory/chain4energy",
-    "grpc_url": "http://grpc.cosmos.directory/chain4energy",
+    "grpc_url": "https://rpc.cosmos.directory/chain4energy",
     "explorer_url": "https://explorer.c4e.io/transactions/",
     "bech32_hrp": "c4e",
     "tokens": [
