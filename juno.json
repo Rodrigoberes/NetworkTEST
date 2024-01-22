@@ -646,5 +646,51 @@
       },
       "denom": "arebus"
     }
+  },
+   {
+    "id": "reb_3333-1",
+    "name": "Rebus Testnet",
+    "http_url": "https://testnet.rebus.money/cosmosrest",
+    "grpc_url": "https://testnet.rebus.money/cosmosgrpc",
+    "explorer_url": "https://rebus.explorers.guru/transaction/",
+    "bech32_hrp": "rebus",
+    "tokens": [
+      "arebus"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "REBUS",
+        "symbol": "REBUS",
+        "price": "-",
+        "denom": "arebus"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF40385E",
+      "testnet_color": "0xFFFF4D4D",
+      "logo": {
+        "assets": "assets/images/rebus/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/cosmos/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "arebus"
+    }
   }
 ]
