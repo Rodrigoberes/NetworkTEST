@@ -604,8 +604,8 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://api.rebuschain.com",
-    "grpc_url": "http://grpc.rebuschain.com:9090",
+    "http_url": "https://api.rebuschain.com:1317",
+    "grpc_url": "http://api.rebuschain.com:9090",
     "explorer_url": "https://rebus.explorers.guru/transaction/",
     "bech32_hrp": "rebus",
     "tokens": [
