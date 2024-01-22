@@ -651,7 +651,7 @@
     "id": "reb_3333-1",
     "name": "Rebus Testnet",
     "http_url": "https://testnet.rebus.money/cosmosrest",
-    "grpc_url": "http://testnet.rebus.money:9090",
+    "grpc_url": "http://testnet.rebus.money",
     "explorer_url": "https://rebus.explorers.guru/transaction/",
     "bech32_hrp": "rebus",
     "tokens": [
