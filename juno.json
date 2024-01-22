@@ -604,7 +604,7 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus.api.m.stavr.tech",
+    "http_url": "https://rebus-rest.brocha.in",
     "grpc_url": "rebus-grpc.brocha.in:443",
     "explorer_url": "https://rebus.explorers.guru/transaction/",
     "bech32_hrp": "rebus",
