@@ -604,9 +604,9 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus-mainnet-lcd.autostake.com:443",
-    "grpc_url": "http://rebus-mainnet-grpc.autostake.com:9090",
-    "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
+    "http_url": "https://rebus.api.m.stavr.tech",
+    "grpc_url": "http://rebus.grpc.m.stavr.tech:3211",
+    "explorer_url": "https://rebus.explorers.guru/transaction/",
     "bech32_hrp": "rebus",
     "tokens": [
       "arebus"
