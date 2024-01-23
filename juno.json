@@ -604,8 +604,8 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://api.rebus.nodestake.top",
-    "grpc_url": "http://grpc.rebus.nodestake.top:9090",
+    "http_url": "https://api.mainnet.rebus.money:1317",
+    "grpc_url": "rebus.grpc.bccnodes.com:14090",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
