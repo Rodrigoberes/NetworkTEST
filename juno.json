@@ -602,8 +602,8 @@
     }
   },
    {
-    "id": "reb_3333-1",
-    "name": "Rebus Testnet",
+    "id": "reb_1111-1",
+    "name": "Rebus",
     "http_url": "https://rebus.api.m.stavr.tech",
     "grpc_url": "http://rebus.grpc.m.stavr.tech:3211",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
