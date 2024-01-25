@@ -605,7 +605,7 @@
     "id": "reb_1111-1",
     "name": "Rebus",
     "http_url": "https://api.rebuschain.com/cosmosrest",
-    "grpc_url": "http://rebus-grpc.publicnode.com:9090",
+    "grpc_url": "https://rebus-grpc.publicnode.com",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
