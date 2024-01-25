@@ -604,8 +604,8 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus.api.m.stavr.tech",
-    "grpc_url": "http://rebus.evmgrpc.m.stavr.tech:8545",
+    "http_url": "https://api.rebuschain.com/cosmosrest",
+    "grpc_url": "http://app.rebuschain.com:9090",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
