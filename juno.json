@@ -606,7 +606,7 @@
     "name": "Rebus",
     "http_url": "https://rebus.api.m.stavr.tech",
     "grpc_url": "http://rebus.grpc.m.stavr.tech:3211",
-    "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
+    "explorer_url": "https://explorer.stavr.tech/rebus/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
       "arebus"
