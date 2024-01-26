@@ -604,8 +604,8 @@
    {
     "id": "reb_1111-1",
     "name": "Rebus",
-    "http_url": "https://rebus.api.liveraven.net",
-    "grpc_url": "http://rebus.grpc.liveraven.net:9090",
+    "http_url": "https://rebus-rest.brocha.in",
+    "grpc_url": "rebus-grpc.brocha.in:443",
     "explorer_url": "https://explorer.nodestake.top/rebus-testnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
