@@ -652,7 +652,7 @@
     "name": "Rebus Testnet",
     "http_url": "https://testnet.rebus.money/cosmosrest",
     "grpc_url": "51.89.40.96:9090",
-    "explorer_url": "https://testnet.rebus.money:8443/rebustestnet/tx/",
+    "explorer_url": "https://testnet.rebus.money/rebustestnet/tx/",
     "bech32_hrp": "rebus",
     "tokens": [
       "arebus"
