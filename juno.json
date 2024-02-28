@@ -45,7 +45,8 @@
         "default": 0.01
       },
       "denom": "ucommercio"
-    }
+    },
+    "can_mint": ["did:com:1cjnpack2jqngdhj9cap23h4n3dmxcvqswgyrlc"]
   },
   {
     "id": "commercio-testnet",
@@ -95,7 +96,8 @@
         "default": 0.01
       },
       "denom": "ucommercio"
-    }
+    },
+    "can_mint": ["did:com:1cjnpack2jqngdhj9cap23h4n3dmxcvqswgyrlc"]
   },
   {
     "id": "commercio-devnet",
@@ -145,7 +147,8 @@
         "default": 0.01
       },
       "denom": "ucommercio"
-    }
+    },
+    "can_mint": ["did:com:1cjnpack2jqngdhj9cap23h4n3dmxcvqswgyrlc"]
   },
   {
     "id": "osmosis-mainnet",
@@ -189,7 +192,8 @@
         "high": 0.04
       },
       "denom": "uosmo"
-    }
+    },
+    "can_mint": []
   },
   {
     "id": "osmo-test-5",
@@ -234,7 +238,8 @@
         "high": 0.04
       },
       "denom": "uosmo"
-    }
+    },
+    "can_mint": []
   },
   {
     "id": "juno-1",
@@ -280,7 +285,8 @@
         "high": 0.125
       },
       "denom": "ujuno"
-    }
+    },
+    "can_mint": []
   },
   {
     "id": "juno-uni-6",
@@ -323,7 +329,8 @@
         "default": 0.075
       },
       "denom": "ujunox"
-    }
+    },
+    "can_mint": []
   },
   {
     "id": "cosmoshub-4",
@@ -369,7 +376,8 @@
         "high": 0.03
       },
       "denom": "uatom"
-    }
+    },
+    "can_mint": []
   },
   {
     "id": "theta-testnet-001",
@@ -415,7 +423,8 @@
         "high": 0.03
       },
       "denom": "uatom"
-    }
+    },
+    "can_mint": []
   },
   {
     "id": "regen-1",
@@ -461,7 +470,8 @@
         "high": 0.04
       },
       "denom": "uregen"
-    }
+    },
+    "can_mint": []
   },
     {
     "id": "regen-redwood-1",
@@ -507,7 +517,102 @@
         "high": 0.04
       },
       "denom": "uregen"
-    }
+    },
+    "can_mint": []
+  },
+   {
+    "id": "reb_1111-1",
+    "name": "Rebus",
+    "http_url": "https://rebus.api.m.stavr.tech",
+    "grpc_url": "http://rebus.grpc.m.stavr.tech:3211",
+    "explorer_url": "https://explorer.stavr.tech/rebus/tx/",
+    "bech32_hrp": "rebus",
+    "tokens": [
+      "arebus"
+    ],
+    "sponsor": "rebusvaloper1ae6fc3rxq7fmtllm9nckn2qck6qdd33ap59p3u",
+    "mainnet": true,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "REBUS",
+        "symbol": "REBUS",
+        "price": "-",
+        "denom": "arebus"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF40385E",
+      "testnet_color": "0xFF40385E",
+      "logo": {
+        "assets": "assets/images/rebus/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/cosmos/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "arebus"
+    },
+    "can_mint": []
+  },
+   {
+    "id": "reb_3333-1",
+    "name": "Rebus Testnet",
+    "http_url": "https://testnet.rebus.money/cosmosrest",
+    "grpc_url": "51.89.40.96:9090",
+    "explorer_url": "https://testnet.rebus.money/rebustestnet/tx/",
+    "bech32_hrp": "rebus",
+    "tokens": [
+      "arebus"
+    ],
+    "sponsor": "",
+    "mainnet": false,
+    "enabled": true,
+    "can_change_enabled_status": true,
+    "default_coins": [
+      {
+        "name": "REBUS",
+        "symbol": "REBUS",
+        "price": "-",
+        "denom": "arebus"
+      }
+    ],
+    "theme": {
+      "primary_color": "0xFF40385E",
+      "testnet_color": "0xFFFF4D4D",
+      "logo": {
+        "assets": "assets/images/rebus/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      },
+      "logo_named": {
+        "assets": "assets/images/cosmos/rebus.png",
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
+      }
+    },
+    "fees": {
+      "default_gas_limit": 350000,
+      "url": "",
+      "gas_price_steps": {
+        "default": 0.025,
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      },
+      "denom": "arebus"
+    },
+    "can_mint": []
   },
   {
     "id": "perun-1",
@@ -532,8 +637,8 @@
       }
     ],
     "theme": {
-      "primary_color": "0xFF65BEA9",
-      "testnet_color": "0xFF65BEA9",
+      "primary_color": "0xFF0A8B3A",
+      "testnet_color": "0xFF0A8B3A",
       "logo": {
         "assets": "assets/images/chain4energy/c4e_logo.png",
         "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
@@ -553,7 +658,8 @@
         "high": 0.03
       },
       "denom": "uc4e"
-    }
+    },
+    "can_mint": []
   },
     {
     "id": "babajaga-1",
@@ -599,98 +705,7 @@
         "high": 0.03
       },
       "denom": "uc4e"
-    }
-  },
-   {
-    "id": "reb_1111-1",
-    "name": "Rebus",
-    "http_url": "https://rebus.api.manticore.team:443",
-    "grpc_url": "rebus.grpc.manticore.team:443",
-    "explorer_url": "https://explorer.stavr.tech/rebus/tx/",
-    "bech32_hrp": "rebus",
-    "tokens": [
-      "arebus"
-    ],
-    "sponsor": "rebusvaloper1ae6fc3rxq7fmtllm9nckn2qck6qdd33ap59p3u",
-    "mainnet": true,
-    "enabled": true,
-    "can_change_enabled_status": true,
-    "default_coins": [
-      {
-        "name": "REBUS",
-        "symbol": "REBUS",
-        "price": "-",
-        "denom": "arebus"
-      }
-    ],
-    "theme": {
-      "primary_color": "0xFF40385E",
-      "testnet_color": "0xFF40385E",
-      "logo": {
-        "assets": "assets/images/rebus/rebus.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
-      },
-      "logo_named": {
-        "assets": "assets/images/cosmos/rebus.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
-      }
     },
-    "fees": {
-      "default_gas_limit": 350000,
-      "url": "",
-      "gas_price_steps": {
-        "default": 0.025,
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.04
-      },
-      "denom": "arebus"
-    }
-  },
-  {
-    "id": "reb_3333-1",
-    "name": "Rebus Testnet",
-    "http_url": "https://testnet.rebus.money/cosmosrest",
-    "grpc_url": "51.89.40.96:9090",
-    "explorer_url": "https://testnet.rebus.money/rebustestnet/tx/",
-    "bech32_hrp": "rebus",
-    "tokens": [
-      "arebus"
-    ],
-    "sponsor": "",
-    "mainnet": false,
-    "enabled": true,
-    "can_change_enabled_status": true,
-    "default_coins": [
-      {
-        "name": "REBUS",
-        "symbol": "REBUS",
-        "price": "-",
-        "denom": "arebus"
-      }
-    ],
-    "theme": {
-      "primary_color": "0xFF40385E",
-      "testnet_color": "0xFFFF4D4D",
-      "logo": {
-        "assets": "assets/images/rebus/rebus.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
-      },
-      "logo_named": {
-        "assets": "assets/images/cosmos/rebus.png",
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png"
-      }
-    },
-    "fees": {
-      "default_gas_limit": 350000,
-      "url": "",
-      "gas_price_steps": {
-        "default": 0.025,
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.04
-      },
-      "denom": "arebus"
-    }
+    "can_mint": []
   }
 ]
